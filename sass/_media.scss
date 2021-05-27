@@ -1,0 +1,18 @@
+@media (max-width: 670px) {
+    .sec-padding{
+        padding: 50px 0;
+    }
+    .about{
+        &__content{
+            display: block;
+        }
+        &__info{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        &__img{
+            min-height: 150px;
+            width: 100%;
+        }
+    }
+}
