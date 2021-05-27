@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__logo">Some<span>Text</span></a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner" style="background-image: url('images/banner-bg.jpg');">
+        <div class="banner__content">
+            <h1 class="banner__title">Lorem ipsum dolor</h1>
+            <p class="banner__text">
+                Lorem ipsum dolor sit amet consectetur
+            </p>
+            <a href="#" class="banner__btn default-btn">send mail</a>
+        </div>
+    </section>
+
+    <div class="modal">
+        <div class="modal__content">
+            <div class="modal__close">
+                <img src="images/close.svg" alt="close">
+            </div>
+            <div class="modal__title">Lorem ipsum dolor sit amet.</div>
+            <div class="modal__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, optio!
+            </div>
+            <form action="#">
+                <input type="text" placeholder="name" required>
+                <input type="text" placeholder="phone" required id="phone">
+                <input type="submit" value="send" class="default-btn">
+            </form>
+        </div>
+    </div>
+    
+    <section class="about sec-padding" id="about">
+        <div class="container">
+            <h3 class="about__title sec-title">
+                About <span>Us</span>
+            </h3>
+            <div class="about__content">
+                <div class="about__info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat optio voluptatibus aliquam voluptatum vel, veniam distinctio quibusdam itaque eaque tenetur. Officiis, consequuntur porro magnam repellendus officia optio perferendis debitis voluptatum.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat optio voluptatibus aliquam voluptatum vel, veniam distinctio quibusdam itaque eaque tenetur. Officiis, consequuntur porro magnam repellendus officia optio perferendis debitis voluptatum.
+                </div>
+                <div class="about__img">
+                    <img src="https://picsum.photos/300" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
