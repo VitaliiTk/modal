@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modal</title>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -33,11 +34,11 @@
             <p class="banner__text">
                 Lorem ipsum dolor sit amet consectetur
             </p>
-            <a href="#" class="banner__btn default-btn">send mail</a>
+            <a href="javascript:;" class="banner__btn default-btn" data-src="#modal-fancy" data-fancybox>send mail</a>
         </div>
     </section>
 
-    <div class="modal">
+    <!-- <div class="modal">
         <div class="modal__content">
             <div class="modal__close">
                 <img src="images/close.svg" alt="close">
@@ -52,6 +53,11 @@
                 <input type="submit" value="send" class="default-btn">
             </form>
         </div>
+    </div> -->
+
+    <div class="modal-fancy" id="modal-fancy" style="display: none;">
+        <div class="modal__title">some title</div>
+        <div class="modal__text">some text</div>
     </div>
     
     <section class="about sec-padding" id="about">
@@ -73,6 +79,7 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
